@@ -1,4 +1,4 @@
-package tech.sakshi.springbootlearning.courseapi;
+package tech.sakshi.springbootlearning;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
