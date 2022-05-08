@@ -41,4 +41,9 @@ public class TopicService {
         }
     }
 
+    public void deleteTopic(String id){
+        Topic temp=topics.stream().filter(t->t.getId().equals(id)).findFirst().get();
+        topics.remove(temp);
+    }
+
 }
